@@ -1,44 +1,60 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/arduino uno.png
+title: Arduino Fire Alarm System
+permalink: projects/arduino
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-08-20
 labels:
   - Robotics
   - Arduino
   - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: My partner and I designed a fire alarm system that allows users to trigger a buzzer and an LED indicating a fire is present with a push button.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+<div class="Arduino Circuit">
+  <img class="ui image" src="../images/arduino circuit.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+What is an Arduino UNO? An Arduino UNO is a programmable microcontroller circuit board. The Arduino code syntax is similar with C++ and the Arduino IDE is used to connect and program the UNO board with your computer.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For the project, at first, my partner and I attached a flame sensor for temperature detecting. However, we encountered problems with the testing of the circuit board. My partner and I decided to replace the sensor with a normal switch that will serve as a sensor or fire alarm switch. Turning on the switch will trigger a positive voltage across the circuit board and while the switch is on, the buzzer will begin to make a synchronous noise. At the same time, the Arduino IDE console will also output a "Flame Detected!" message if the switch is turned on and "No flame detected!" if the switch is turned off.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is the code overview:
 
 ```js
-byte ADCRead(byte ch)
+int buzzer = 8;
+int LED = 7;
+int flame_sensor = 4;
+int flame_detected;
+
+void setup()
 {
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+  Serial.begin(9600);
+  pinMode(buzzer, OUTPUT);
+  pinMode(LED, OUTPUT);
+  pinMode(flame_sensor, INPUT);
+}
+void loop()
+{
+  flame_detected = digitalRead(flame_sensor);
+  if (flame_detected == 1)
+  {
+    Serial.println("Flame detected! Please take proper action.");
+    digitalWrite(buzzer, HIGH);
+    tone(buzzer, 1000, 500);
+    digitalWrite(LED, HIGH);
+    delay(200);
+    digitalWrite(LED, LOW);
+    delay(200);
+  }
+  else
+  {
+    Serial.println("No flame detected! Temperature is normal.");
+    digitalWrite(buzzer, LOW);
+    digitalWrite(LED, LOW);
+  }
+ delay(1000);
 }
 ```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
