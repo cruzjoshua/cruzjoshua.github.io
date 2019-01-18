@@ -25,7 +25,7 @@
         "username": "joshuascruz",
         "url": "www.linkedin.com/in/joshuascruz"
       },
-      ]
+     ]
   },
   "interests": [
     {
@@ -98,8 +98,8 @@
     {
       "company": "Center on Disability Studies",
       "position": "Computer Support Assistant",
-      "website": "",
-      "startDate": "June 2018",
+      "website": "https://www.cds.hawaii.edu/",
+      "startDate": "2018",
       "endDate": "Present",
       "summary": "Troubleshooting and upgrades of computers -- Macintosh and Windows. Assist faculty and staff in general computer troubleshooting and user consultation.",
       "highlights": [
