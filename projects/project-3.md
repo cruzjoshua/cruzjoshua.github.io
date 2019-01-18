@@ -1,61 +1,100 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/ics
 title: Cotton
-permalink: projects/cotton
+permalink: projects/ics
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2018-04-28
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Java
+summary: An ICS-211 Program that fulfills most of the basics of programming.
 ---
+An online course I took that consists the basics of Java.
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+Code Overview:
+```java
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+public class javaBasics {
 
-To give you a flavor of the game, here is an excerpt from one run:
+    public static void main(String[] args) {
+        int a[] = new int[20];
+        for (int i = 0; i < 20; i++) {
+            a[i] = ThreadLocalRandom.current().nextInt(1, 1001);
+        }
+        display();
+        Scanner scan = new Scanner(System.in);
+        int choice = scan.nextInt();
+        while (choice != 5) {
 
-<hr>
+            if (choice == 1) {
+                printArray(a);
+            } else if (choice == 2) {
+                boolean flag = true;
+                while (flag) {
+                    flag = false;
+                    for (int i = 0; i < a.length - 1; i++) {
+                        if (a[i] > a[i + 1]) {
+                            int temp = a[i];
+                            a[i] = a[i + 1];
+                            a[i + 1] = temp;
+                            flag = true;
+                        }
+                    }
+                }
+                printArray(a);
+            } else if (choice == 3) {
+                System.out.println("Input number to search for:");
+                int num = scan.nextInt();
+                searchArray(a, num);
+            } else if (choice == 4) {
+                try {
+                    Writer wr = new FileWriter("javaBasics.txt");
+                    for (int i = 0; i < a.length; i++)
+                        wr.write(a[i] + " ");
+                    wr.close();
+                } catch (IOException e) {
+                    System.out.println("Error - " + e.toString());
+                }
+            } else {
+                System.out.println("Please input a valid menu option...\n");
+            }
+            display();
+            choice = scan.nextInt();
+        }
+    }
 
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
+    static void printArray(int arr[]) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i] + " ");
+        }
+    }
 
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
+    static void display() {
+        System.out.println("1. Display the list of integers");
+        System.out.println("2. Sort the list of integers");
+        System.out.println("3. Search for a number");
+        System.out.println("4. Save the list to an external file");
+        System.out.println("5. Quit the program");
+        System.out.print("Choice:");
+    }
 
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
-
+    static void searchArray(int arr[], int num) {
+        boolean flag = false;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == num) {
+                System.out.println(num + " was found!");
+                flag = true;
+            }
+        }
+        if (flag == false) {
+            System.out.println(num + " was not found");
+        }
+    }
+}
+```
