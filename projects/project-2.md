@@ -1,25 +1,20 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/droplet.jpg
+title: Droplet Generation
+permalink: projects/droplet
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-01-07
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - Designing and implementation
+  - Research and Analysis
+  - DNA of cells
+summary: A VIP project at Univeristy of Hawaii at Manoa that allows medical researchers study DNA of cells with the help of a microfluidic device.
 ---
+<div class="Fabrication Process">
+  <img class="ui image" src="../images/droplet process.PNG">
+</div>
+This is a Vertically Integrated Project (VIP) project course at University of Hawaii at Manoa that consists of many different types of hands-on projects, such as space and aerial robotics, liquid-metal electronics, microrobotics, and many more! The specific project group I chose to collaborate with is the Droplet Generation group.
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
-
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+As I am new to this project, learning and exploring about the micro-world has always been an interest to me. Joining this project course will allow me to learn how to collab with other team members who specialize in other engineering majors and work effectively as a group. The goal of this project is to be able to design and implement a device that allows the usage to fabricate micro fluids. This will allow a seperate group of researches to effectively study the effect of diseases on the DNA of cells. The new set of goals of this project are to design a better microfluidic device with Arduino. As a student with Arduino experience, I am looking forward to help complete one of these goals!
