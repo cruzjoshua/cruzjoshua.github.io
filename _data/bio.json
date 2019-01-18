@@ -58,7 +58,6 @@
         "C++",
         "Java",
         "Assembly",
-        "Javascript",
         "Verilog"
       ]
     },
@@ -93,8 +92,7 @@
       "gpa": "",
       "courses": [
       ]
-    }  
-  ],
+    }  ],
   "work": [
     {
       "company": "Center on Disability Studies",
@@ -105,7 +103,7 @@
       "summary": "Troubleshooting and upgrades of computers -- Macintosh and Windows. Assist faculty and staff in general computer troubleshooting and user consultation.",
       "highlights": [
       ]
-    {
+    }
   ],
   "references": [
     {
