@@ -13,7 +13,7 @@ labels:
 summary: A VIP project at Univeristy of Hawaii at Manoa that allows medical researchers study DNA of cells with the help of a microfluidic device.
 ---
 <div class="Fabrication Process">
-  <img class="ui image" src="../images/droplet process.png">
+  <img class="ui image" src="../images/droplet process.PNG">
 </div>
 
 This is a Vertically Integrated Project (VIP) project course at University of Hawaii at Manoa that consists of many different types of hands-on projects, such as space and aerial robotics, liquid-metal electronics, microrobotics, and many more! The specific project group I chose to collaborate with is the Droplet Generation group.
