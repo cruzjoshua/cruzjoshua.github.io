@@ -23,7 +23,7 @@ For the project, at first, my partner and I attached a flame sensor for temperat
 
 Here is the code overview:
 
-```js
+```c++
 int buzzer = 8;
 int LED = 7;
 int flame_sensor = 4;
