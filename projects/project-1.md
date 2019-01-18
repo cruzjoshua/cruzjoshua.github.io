@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/arduino uno.png
+image: images/arduino uno.jpg
 title: Arduino Fire Alarm System
 permalink: projects/arduino
 # All dates must be YYYY-MM-DD format!
