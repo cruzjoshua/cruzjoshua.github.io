@@ -29,21 +29,22 @@
   },
   "interests": [
     {
-      "name": "Internet of Things",
-      "keywords": [
-        "Arduino",
-        "Microrobotics",
-        "Gaming",
-        "Computer Hardware"
-      ]
-    },
-    {
-      "name": "Robotics",
+      "name": "robotics",
       "keywords": [
       ]
     },
     {
-      "name": "Computers",
+      "name": "artifical intelligence",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "hardware",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "computer technology",
       "keywords": [
       ]
     }
@@ -56,10 +57,9 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
         "Assembly",
-        "Verilog",
-        "mySQL"
+        "Javascript",
+        "Verilog"
       ]
     },
     {
@@ -67,8 +67,9 @@
       "level": "",
       "keywords": [
         "Windows",
-        "Unix",
+        "MacOS",
         "Git/GitHub",
+        "Unix"
       ]
     }
   ],
@@ -77,23 +78,22 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Engineering (expected Spring, 2020)",
       "studyType": "B.S.",
-      "startDate": "Spring 2017",
+      "startDate": "2017-01-07",
       "endDate": "Present",
       "gpa": "",
       "courses": [
       ]
     },
-        {
-      "institution": "Leeward Community College, Pearl City,HI",
-      "area": "",
-      "studyType": "",
-      "startDate": "Fall 2014",
-      "endDate": "Spring 2016",
+    {
+      "institution": "Leeward Community College, Pearl City, HI",
+      "area": "Computer Engineering",
+      "studyType": "A.S.",
+      "startDate": "2014",
+      "endDate": "2016",
       "gpa": "",
       "courses": [
       ]
-    }
-  ],
+    }  ],
   "work": [
     {
       "company": "Center on Disability Studies",
@@ -105,4 +105,11 @@
       "highlights": [
       ]
     {
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
   ]
+}
