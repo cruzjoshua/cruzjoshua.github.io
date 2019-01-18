@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/ics.jpeg
-title: Cotton
+title: Java Program
 permalink: projects/ics
 # All dates must be YYYY-MM-DD format!
 date: 2018-04-28
