@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Love at First Sight: Javascript
+title: Motivation with Programming
 # All dates must be YYYY-MM-DD format!
 date: 2019-01-18
 labels:
