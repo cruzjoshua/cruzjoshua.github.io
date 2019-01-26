@@ -10,7 +10,7 @@ labels:
   - Java
 summary: An ICS-211 Program that fulfills most of the basics of programming.
 ---
-An online course I took that consists the basics of Java.
+An online course I took that consists the basics of Java. Running this program will generate an array of random numbers, after which the user has several options: display the list of integers, sort the list of integers, search for a number, and quit the program.
 
 Code Overview:
 ```java
