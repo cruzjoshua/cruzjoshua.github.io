@@ -11,8 +11,10 @@ labels:
 # Overview
 ### Problem:
 Hungry UH Students, especially new students, sometimes have no clue which food places near or on campus are suitable to their own liking.
+
 ### Solution:
 This website is community-based and will be able to list all of the accessible food spots available for UH students specifically. Each food place will have its own picture and description about the restaurant or even food trucks. The description will also include a distance rating. Near the bottom of each page will show ratings and reviews from strictly only UH students. This will keep everyones' opinion UH-based.
+
 
 # Mockup Page Ideas
   * Landing Page
@@ -26,6 +28,7 @@ This website is community-based and will be able to list all of the accessible f
   * Edit Food Place
   * Delete/Edit Food Review
 
+
 # Use Case Ideas
 ### Create UH student account:
 User must be part of UH to sign up/in.
@@ -38,6 +41,7 @@ User appear on the landing page and navigates to the list of food places, rates 
 ### Admins:
 Admin keeps everything appropriate and settled. The reviews must be civil
   * Landing Page → Sign in/Sign up Page → Admin List of Food Places → Add/Delete/Edit Food Place → Delete/Edit Food Review
+
 
 # Beyond the Basics
   * Filter food places with different tastes/keywords
