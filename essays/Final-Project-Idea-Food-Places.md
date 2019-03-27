@@ -30,9 +30,11 @@ This website is community-based and will be able to list all of the accessible f
 ### Create UH student account:
 User must be part of UH to sign up/in.
   * Landing page → Sign in/Sign up Page → Profile Edit Page
+
 ### Users:
 User appear on the landing page and navigates to the list of food places, rates the food place and leaves a comment.
   * Landing page → Sign in/Sign up Page → List of Food Places → Food Places Description Page/Add Review & Rating
+
 ### Admins:
 Admin keeps everything appropriate and settled. The reviews must be civil
   * Landing Page → Sign in/Sign up Page → Admin List of Food Places → Add/Delete/Edit Food Place → Delete/Edit Food Review
