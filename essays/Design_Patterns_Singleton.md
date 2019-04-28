@@ -10,6 +10,6 @@ labels:
 ---
 
 ## What is a Design Pattern?
-<img src="/images/designpatters.png>
+<img src="/images/designpatters.png">
 
 Design patterns are ways to create different possible of solutions to solving a specific problem. With the use of design patterns, software engineers can use this as a template to help their future complications.
