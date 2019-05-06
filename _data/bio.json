@@ -57,6 +57,10 @@
         "C",
         "C++",
         "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "mySQL",
         "Assembly",
         "Verilog"
       ]
@@ -68,7 +72,11 @@
         "Windows",
         "MacOS",
         "Git/GitHub",
-        "Unix"
+        "Unix",
+        "IntelliJ IDEA",
+        "MongoDB",
+        "React",
+        "Meteor"
       ]
     }
   ],
