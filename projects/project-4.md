@@ -62,7 +62,7 @@ To get to our landing page, click [Running Deployment](http://onomanoagrindz.met
 
 ### Sign in/Sign up Page
 Sign up with your existing account with the sign in page shown below.
-<img src='/images/newuserguide2.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide2.png'>
 
 ### Register your own account
 If you do not have an account, press "Click here to register" to quickly sign up for an account. Register page is shown below.
