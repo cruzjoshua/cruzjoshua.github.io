@@ -5,7 +5,7 @@ image: images/joshua.jpg
 title: Ono Manoa Grindz
 permalink: projects/onomanoagrindz
 # All dates must be YYYY-MM-DD format!
-date: 2019-05-5
+date: 2019-05-05
 labels:
   - Javascript
   - HTML
@@ -16,7 +16,7 @@ labels:
   - MongoDB
   - GitHub
   - Teamwork
-summary: ICS-314 Final Project.
+summary: ICS-314 Final Project
 ---
 
 # What kind of project is this?
@@ -33,6 +33,28 @@ There are many food choices on campus: campus center, food trucks, Manoa Gardens
 * [GitHub Homepage](https://ono-manoa-grindz.github.io)
 * [Github Project Board](https://github.com/ono-manoa-grindz/ono-manoa-grindz/projects)
 * [Github Source Code](https://github.com/ono-manoa-grindz/ono-manoa-grindz)
+
+# How to use our application
+
+## Developer Guide (Installation)
+Begin by [installing Meteor]( https://www.meteor.com/install).
+
+Next [create a local copy of the source code from the following Github Repository](https://github.com/ono-manoa-grindz/ono-manoa-grindz).
+
+After installing, cd into the app directory and install the required libraries with:
+
+```
+$ meteor npm install
+```
+
+Once the libraries are installed, you can run the application by invoking:
+
+```
+$ meteor npm run start
+```
+
+## User Guide
+Test
 
 # Team Members
 This is not a solo project. It was created by four hardworking students from ICS-314.
