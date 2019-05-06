@@ -62,31 +62,31 @@ To get to our landing page, click [Running Deployment](http://onomanoagrindz.met
 
 ### Sign in/Sign up Page
 Sign up with your existing account with the sign in page shown below.
-<img src='/images/newuserguide2.png'>
+<img src='/images/newuserguide2.png' style='width:150%;height:150%'>
 
 ### Register your own account
 If you do not have an account, press "Click here to register" to quickly sign up for an account. Register page is shown below.
-<img src='/images/newuserguide3.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide3.png' style='width:150%;height:150%'>
 
 ### User Landing Page
 After signing in with your new account, the new landing page will look like this. You will see a new category under the navigation bar at the top. You can now view the vendors that are available to you.
-<img src='/images/newuserguide4.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide4.png' style='width:150%;height:150%'>
 
 ### Vendor Page
 Here is an overview of all the available vendors implemented into our website.
-<img src='/images/newuserguide5.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide5.png' style='width:150%;height:150%'>
 
 ### Vendor Home Page
 Users may now view the vendor's information and add their own review and stars to each vendors on the website. The ratings and reviews will be shown below the "Add review" form.
-<img src='/images/newuserguide6.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide6.png' style='width:150%;height:150%'>
 
 ### Admin Home Page
 To become an admin, you must contact one of the project developers to be manually added as an "Admin" role for your account. If you are an admin, this is your new landing page.
-<img src='/images/newuserguide7.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide7.png' style='width:150%;height:150%'>
 
 ### Admin Add Vendor Page
 Admins may add their own vendors of their own choice but for obivous reasons, they have to be located near, in, or within the UH campus.
-<img src='/images/newuserguide8.png' style='width:200px;height:100px'>
+<img src='/images/newuserguide8.png' style='width:150%;height:150%'>
 
 # Team Members
 * [Dennis Kim](https://github.com/shinsa2)
