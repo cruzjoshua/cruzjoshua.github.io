@@ -36,8 +36,8 @@ There are many food choices on campus: campus center, food trucks, Manoa Gardens
 
 # How to use our application
 
-#### Developer Guide (Installation)
-Begin by [installing Meteor]( https://www.meteor.com/install).
+### Developer Guide:
+If you wish to install our application directly, begin by [installing Meteor]( https://www.meteor.com/install).
 
 Next [create a local copy of the source code from the following Github Repository](https://github.com/ono-manoa-grindz/ono-manoa-grindz).
 
@@ -53,7 +53,7 @@ Once the libraries are installed, you can run the application by invoking:
 $ meteor npm run start
 ```
 
-#### User Guide
+### User Guide:
 Test
 
 # Team Members
