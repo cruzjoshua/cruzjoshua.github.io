@@ -58,7 +58,7 @@ $ meteor npm run start
 # User Guide
 ### Landing Page
 To get to our landing page, click [Running Deployment](http://onomanoagrindz.meteorapp.com). When you first get to the page, you will be greeted with the landing page shown below. The page will render the top three rated restaurants on this website.
-<img src='/images/newuserguide1.png' style="width:300px;height:200px>
+<img src='/images/newuserguide1.png' style="width:100px;height:50px>
 
 ### Sign in/Sign up Page
 Sign up with your existing account with the sign in page shown below.
