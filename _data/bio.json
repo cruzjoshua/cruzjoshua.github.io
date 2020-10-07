@@ -6,7 +6,7 @@
     "email": "cruzj4@hawaii.edu",
     "phone": "808-428-6674",
     "website": "https://cruzjoshua.github.io",
-    "summary": "I am studying for a B.S. in Computer Engineering at the University of Hawaii at Manoa. I expect to graduate in Spring, 2020.",
+    "summary": "Computer Engineering Graduate from the University of Hawaii at Manoa.",
     "location": {
       "address": "",
       "postalCode": "96707",
@@ -83,11 +83,11 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Engineering (expected Spring, 2020)",
+      "area": "Computer Engineering",
       "studyType": "B.S.",
       "startDate": "2017-01-07",
-      "endDate": "Present",
-      "gpa": "",
+      "endDate": "2020-05-22",
+      "gpa": "Major GPA: 3.0",
       "courses": [
       ]
     },
@@ -107,7 +107,7 @@
       "position": "Computer Support Assistant",
       "website": "https://www.cds.hawaii.edu/",
       "startDate": "2018-06-12",
-      "endDate": "Present",
+      "endDate": "2020-05-22",
       "summary": "Troubleshooting and upgrades of computers -- Macintosh and Windows. Assist faculty and staff in general computer troubleshooting and user consultation.",
       "highlights": [
       ]
